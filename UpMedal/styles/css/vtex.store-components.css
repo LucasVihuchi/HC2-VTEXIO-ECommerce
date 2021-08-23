@@ -1,0 +1,58 @@
+.searchBarContainer :global(.vtex-input-prefix__group){
+    border: none;
+    border-bottom: .0625rem solid #ffffff;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group):hover{
+    border-bottom: .125rem solid #59ff00;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input),
+.searchBarContainer :global(.vtex-input__suffix){
+    background-color: transparent   ;
+}
+
+.closeIcon,
+.searchIcon {
+    color: #ffffff;
+}
+
+
+/* PRODUCT PAGE */
+.caretIcon{
+    color: #ffffff;
+}
+
+.swiper-pagination.swiperPaginationClickable{
+    bottom: 0;
+}
+
+.swiperBullet {
+    background-color: #ffffff;
+    opacity: .8;
+}
+
+.swiperBullet.swiperBullet--active {
+    background-color: #59ff00;
+}
+
+/* .productNameContainer{
+    margin-top: 1rem;
+} */
+
+.productBrand {
+    color: #fff;
+}
+
+.shippingContainer :global(.vtex-button__label){
+    color: #303030;
+}
+
+.imageElement.imageElement--icon1,
+.imageElement.imageElement--icon2,
+.imageElement.imageElement--icon3,
+.imageElement.imageElement--icon4 {
+    width:24px;
+    height: 24px;
+    filter: invert();
+}

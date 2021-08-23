@@ -1,0 +1,17 @@
+.flexRowContent :global(.vtex-product-list-0-x-price) {
+    color: #ffffff;
+}
+
+.flexColChild :global(.vtex-button__label) {
+    color: #303030;
+}
+
+.flexColChild :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer),
+.flexRowContent :global(.vtex-product-list-0-x-deleteIcon) {
+    color: #cccccc;
+}
+
+.flexColChild.flexColChild--productImageCarousel {
+    margin-bottom: 2rem;
+}
+

@@ -1,0 +1,33 @@
+.gallery{
+    margin-top: 40px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery :global(.vtex-search-result-3-x-galleryItem){
+    max-width: 18rem !important;
+    flex-basis: 18rem !important;
+    background-color: #424242;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding: 0;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+}
+
+.gallery :global(.vtex-product-summary-2-x-productBrand){
+    font-size: 1.125rem;
+}
+
+.gallery :global(.vtex-store-components-3-x-sellingPrice){
+    color: #59ff00;
+}
+
+.buttonShowMore :global(.vtex-button__label) {
+    color: #3C3C3C;
+}
+
+.searchNotFoundInfo {
+    color: #ffffff;
+}

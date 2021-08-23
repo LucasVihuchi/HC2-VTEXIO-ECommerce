@@ -1,0 +1,63 @@
+.leadDiv{
+    margin-top: 1rem;
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+
+.leadName,
+.leadEmail,
+.leadPhone,
+.leadButton{
+    padding: .25rem .75rem;
+    max-width: 30rem;
+}
+
+.leadName::placeholder,
+.leadEmail::placeholder,
+.leadPhone::placeholder,
+.leadButton::placeholder{
+    color: #ffffff;
+}
+
+.leadName,
+.leadEmail,
+.leadPhone{
+    color: #ffffff;
+    background: transparent;
+    border: .125rem solid #8bc34a;
+    border-radius: .25rem;
+    width: 100%;
+    outline-color: #59ff00;
+}
+
+.leadButton{
+    background-color: #59ff00;
+    border: solid #59ff00;
+    color: #ffffff;
+
+    margin-top: 1rem;
+    border-radius: .25rem;
+    width: 100%;
+}
+
+.leadButton{
+    background-color: #59ff00;
+    border: solid #59ff00;
+    color: #ffffff;
+    outline-color: #59ff00;
+}
+
+.leadButton:hover{
+    background-color: #8bc34a;
+    border-color: #8bc34a;
+}
+
+.leadMsg{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #ffffff;    
+}

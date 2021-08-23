@@ -1,0 +1,93 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-border",
+      "header-row#1-desktop"
+    ]
+  },
+  "header-border": {
+    "props": {
+      "sticky": true
+    }
+  },
+  "header-row#1-desktop": {
+    "props": {
+      "fullWidth": true,
+      "inverted": true,
+      "sticky": true
+    },
+    "children": [
+      "logo#desktop",
+      "header-spacer",
+      // "flex-layout.col#spacer",
+      "search-bar#desktop",
+      "header-spacer",
+      // "flex-layout.col#spacer",
+      "locale-switcher",
+      "minicart.v2"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/upmedal.png",
+      "width": "150"
+    }
+  },
+  "search-bar#desktop": {
+    "props": {
+      "maxWidth": "40%",
+      "placeholder": "BUSCAR"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "header-border",
+      "header-row#1-mobile"
+    ]
+  },
+  "header-row#1-mobile": {
+    "props": {
+      "fullWidth": true,
+      "inverted": true,
+      "sticky": true
+    },
+    "children": [
+      "logo#mobile",
+      "header-spacer",
+      // "flex-layout.col#spacer",
+      "search-bar#mobile",
+      "header-spacer",
+      // "flex-layout.col#spacer",
+      "locale-switcher",
+      "minicart.v2"
+    ]
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/upmedal.png",
+      "width": "80"
+    }
+  },
+  "search-bar#mobile": {
+    "props": {
+      "maxWidth": "40%",
+      "placeholder": "BUSCAR"
+    }
+  }
+}

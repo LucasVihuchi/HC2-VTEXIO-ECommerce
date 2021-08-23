@@ -1,0 +1,20 @@
+.nameContainer{
+    padding: .5rem;
+    padding-bottom: 1rem;
+    justify-content: start;
+}
+
+.productBrand.brandName{
+    color: #ffffff;
+    text-align: start;
+}
+
+.imageNormal{
+    max-height: 18rem;
+}
+
+.element :global(.vtex-button){
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}

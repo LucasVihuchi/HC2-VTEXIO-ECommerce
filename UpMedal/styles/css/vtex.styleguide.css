@@ -1,0 +1,8 @@
+
+.input.hideDecorators.noAppearance {
+    color: #ffffff;
+}
+.input.hideDecorators.noAppearance::placeholder {
+    color: #ffffff;
+}
+

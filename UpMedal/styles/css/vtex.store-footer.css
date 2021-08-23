@@ -1,0 +1,15 @@
+.footerLayout{
+    width: 100vw;
+    position: fixed;
+    z-index: 9;
+    
+    bottom: 0;
+    left: 0;
+    
+    padding: .875rem 0 .125rem 0;
+    background-color: #424242;
+}
+
+.footerLayout :global(.vtex-flex-layout-0-x-flexRowContent){
+    display: flex;
+}

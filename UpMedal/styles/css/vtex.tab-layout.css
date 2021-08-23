@@ -1,0 +1,10 @@
+.listContainer.listContainer--menu_home :global(.vtex-button){
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0;
+}
+
+.listItem.listItemActive{
+    border-bottom: .125rem solid #59ff00;
+    color: #59ff00;
+}

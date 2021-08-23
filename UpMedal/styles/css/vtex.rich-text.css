@@ -1,0 +1,9 @@
+.paragraph {
+    margin-top: .25rem;
+    margin-bottom: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}

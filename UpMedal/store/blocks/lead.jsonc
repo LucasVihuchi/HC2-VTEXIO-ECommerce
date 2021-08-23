@@ -1,0 +1,35 @@
+{
+    "store.custom#lead": {
+      "blocks": [
+        "flex-layout.row#lead"
+      ]
+    },
+    "flex-layout.row#lead": {
+      "children": [
+        "flex-layout.col#empty6",
+        "flex-layout.col#lead",
+        "flex-layout.col#empty6"
+        ],
+        "props": {
+          "blockClass": "lead"
+        }
+    },
+    "flex-layout.col#empty6": {
+      "props": {
+        "width": "10%"
+      }
+    },
+    "flex-layout.col#lead": {
+      "children": [
+        "rich-text#cadastrar",
+        "countdown"
+      ]
+    },
+    "rich-text#cadastrar": {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "## Cadastre-se Para Receber Ofertas"
+      }
+    }
+}
